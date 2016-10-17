@@ -32,10 +32,12 @@
 
 			var timePassed = Date.now() - start;
 							
-			slideUp(timePassed).then(removeId()
+			/*slideUp(timePassed).then(removeId()
 			).then(function() {
 			    console.log('Done!');
-			});
+			});*/
+
+			slideUp(timePassed);
 
 			slide(timePassed);
 
